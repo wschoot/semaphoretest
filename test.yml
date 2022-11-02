@@ -1,2 +1,5 @@
-- name: ping
-  ping:
+- name: test voor semaphore
+  hosts: localhost
+  tasks:
+  - name: ping
+    ping:
