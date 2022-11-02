@@ -1,5 +1,5 @@
 - name: test voor semaphore
-  hosts: localhost
+  hosts: all
   tasks:
   - name: ping
     ping:
